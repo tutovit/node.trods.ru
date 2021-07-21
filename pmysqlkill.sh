@@ -1,0 +1,1 @@
+ps -eo comm |grep -i mysql | xargs -n1 killall -9c
